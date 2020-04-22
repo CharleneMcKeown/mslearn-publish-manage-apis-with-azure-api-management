@@ -12,7 +12,7 @@ git config --global user.name "$GIT_USERNAME"
 git config --global user.email "$GIT_EMAIL"
 
 
-RESOURCE_GROUP=$(az group list --query "[0].name" -o tsv)
+RESOURCE_GROUP=APIM-rg
 
 # Create App Service plan
 PLAN_NAME=myPlan
